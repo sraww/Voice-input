@@ -25,7 +25,7 @@ namespace SpeechRecognition
         {
             if (e.Result.Confidence > 0.7) l.Text = e.Result.Text;
         }	
-        
+        // Вывод  текста на экран
         private void Form1_Shown(object sender, EventArgs e)
         {
 
@@ -37,7 +37,7 @@ namespace SpeechRecognition
           
             sre.SpeechRecognized += new EventHandler<SpeechRecognizedEventArgs>(sre_SpeechRecognized);
           
-
+           // Закидываем наш набор слов в массив данных 
             Choices numbers = new Choices();
             numbers.Add(new string[] { "привет", "пока", "два", "три", "четыре", "пять"  });
              
