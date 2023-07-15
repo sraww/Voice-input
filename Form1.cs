@@ -39,7 +39,7 @@ namespace SpeechRecognition
           
 
             Choices numbers = new Choices();
-            numbers.Add(new string[] { "один", "два", "три", "четыре", "пять"  });
+            numbers.Add(new string[] { "привет", "пока", "два", "три", "четыре", "пять"  });
              
             GrammarBuilder gb = new GrammarBuilder();
             gb.Culture = ci;
