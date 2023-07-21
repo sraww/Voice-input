@@ -39,7 +39,7 @@ namespace SpeechRecognition
           
            // Закидываем наш набор слов в массив данных 
             Choices numbers = new Choices();
-            numbers.Add(new string[] { "привет", "пока", "два", "три", "четыре", "пять"  });
+            numbers.Add(new string[] { "привет", "как дела?", "Что делаешь?", "пока","Да", "Нет", "два", "три", "четыре", "пять"  });
              
             GrammarBuilder gb = new GrammarBuilder();
             gb.Culture = ci;
@@ -48,6 +48,7 @@ namespace SpeechRecognition
 
             Grammar g = new Grammar(gb);
             sre.LoadGrammar(g);
+
 
             sre.RecognizeAsync(RecognizeMode.Multiple);
             //if (l.Text == "Пока")
