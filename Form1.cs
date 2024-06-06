@@ -37,7 +37,7 @@ namespace SpeechRecognition
           
             sre.SpeechRecognized += new EventHandler<SpeechRecognizedEventArgs>(sre_SpeechRecognized);
           
-           // Закидываем наш набор слов в массив данных 
+          // Закидываем наш набор слов в массив данных  
             Choices numbers = new Choices();
             numbers.Add(new string[] { "привет", "как дела?", "Что делаешь?", "пока","Да", "Нет", "два", "три", "четыре", "пять"  });
              
@@ -51,6 +51,7 @@ namespace SpeechRecognition
 
 
             sre.RecognizeAsync(RecognizeMode.Multiple);
+            // Пытаемся запустить калькулятор. 
             //if (l.Text == "Пока")
             //{
             //    Close();
@@ -61,9 +62,9 @@ namespace SpeechRecognition
             //}
         }
 
-        //private void lable1_TextChanged(object sender, EventArgs e)
-        //{
+        private void lable1_TextChanged(object sender, EventArgs e)
+        {
            
-        //}
+        }
     }
 }
