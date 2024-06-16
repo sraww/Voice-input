@@ -30,7 +30,7 @@ namespace SpeechRecognition
         {
 
             l = label1;
-            
+            // Используем метод для переопределения языка на русский.
             System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("ru-ru");
             SpeechRecognitionEngine sre = new SpeechRecognitionEngine(ci);
             sre.SetInputToDefaultAudioDevice();
