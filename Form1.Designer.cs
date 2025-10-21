@@ -1,4 +1,5 @@
-﻿namespace SpeechRecognition
+
+namespace SpeechRecognition
 {
     partial class Form1
     {
