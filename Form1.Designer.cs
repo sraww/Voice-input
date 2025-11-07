@@ -53,7 +53,6 @@ namespace SpeechRecognition
             this.Shown += new System.EventHandler(this.Form1_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
         
         
