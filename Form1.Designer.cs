@@ -1,7 +1,6 @@
 namespace SpeechRecognition
 {
-    
-    partial class Form1
+        partial class Form1
     {
         /// <summary>
         /// Требуется переменная конструктора.
