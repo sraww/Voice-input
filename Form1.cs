@@ -49,7 +49,7 @@ namespace SpeechRecognition
             Grammar g = new Grammar(gb);
             sre.LoadGrammar(g);
             sre.RecognizeAsync(RecognizeMode.Multiple);
-                }
+      }
 
         private void lable1_TextChanged(object sender, EventArgs e)
         {
