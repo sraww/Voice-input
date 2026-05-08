@@ -48,8 +48,6 @@ namespace SpeechRecognition
 
             Grammar g = new Grammar(gb);
             sre.LoadGrammar(g);
-
-
             sre.RecognizeAsync(RecognizeMode.Multiple);
             // Пытаемся запустить калькулятор. 
             //if (l.Text == "Пока")
