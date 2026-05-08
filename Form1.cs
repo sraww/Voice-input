@@ -49,16 +49,7 @@ namespace SpeechRecognition
             Grammar g = new Grammar(gb);
             sre.LoadGrammar(g);
             sre.RecognizeAsync(RecognizeMode.Multiple);
-            // Пытаемся запустить калькулятор. 
-            //if (l.Text == "Пока")
-            //{
-            //    Close();
-            //}
-            //if (label1.Text == "Калькулятор")
-            //{
-            //    Process.Start("calc.exe");
-            //}
-        }
+                }
 
         private void lable1_TextChanged(object sender, EventArgs e)
         {
