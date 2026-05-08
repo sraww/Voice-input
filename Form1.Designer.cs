@@ -54,7 +54,6 @@ namespace SpeechRecognition
             this.ResumeLayout(false);
             this.PerformLayout();
         }
-        
                 private System.Windows.Forms.Label label1;
     }
 }
