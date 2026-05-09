@@ -1,8 +1,7 @@
 
 namespace SpeechRecognition
 {
-            partial class 
-                        
+            partial class               
     {
         /// <summary>
         /// Требуется переменная конструктора.
